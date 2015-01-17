@@ -2,10 +2,11 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
 	<metadata>
 		<id>RoundTheCode.TagManagerExtensions</id>
+    <title>Tag Manager Extensions</title>
 		<version>1.0.0.0</version>
 		<authors>Round The Code</authors>
 		<description>The allowance for clean and tidy Google Tag Manager commands to be set up in a MVC view. The MVC view extensions return JavaScript commands, which use a JavaScript file to populate the data layer ready for Google Tag Manager.</description>
-    <tags>ASP.NET MVC GoogleTagManager JavaScript</tags>
+    <tags>ASP.NET MVC GoogleTagManager JavaScript Analytics</tags>
     <projectUrl>http://www.roundthecode.com/tag-manager-extensions/</projectUrl>
     <iconUrl>http://www.roundthecode.com/favicon.ico</iconUrl>
 		<dependencies>
