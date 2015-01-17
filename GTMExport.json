@@ -1,0 +1,2921 @@
+{
+  "exportFormatVersion": 1.3,
+  "exportTime": "2015-01-17 12:59:26",
+  "containerVersion": {
+    "accountId": "36928359",
+    "containerId": "959278",
+    "containerVersionId": "1",
+    "deleted": false,
+    "container": {
+      "accountId": "36928359",
+      "containerId": "959278",
+      "name": "Tag Manager Extensions",
+      "publicId": "GTM-P6F2TC",
+      "timeZoneCountryId": "GB",
+      "timeZoneId": "Etc/GMT",
+      "notes": "",
+      "usageContext": [
+        "WEB"
+      ],
+      "fingerprint": "1421428001647"
+    },
+    "macro": [
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "1",
+        "name": "url",
+        "type": "u",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "component",
+            "value": "URL"
+          }
+        ],
+        "fingerprint": "1421426063573"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "2",
+        "name": "url hostname",
+        "type": "u",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "component",
+            "value": "HOST"
+          }
+        ],
+        "fingerprint": "1421426063574"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "3",
+        "name": "url path",
+        "type": "u",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "component",
+            "value": "PATH"
+          }
+        ],
+        "fingerprint": "1421426063574"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "4",
+        "name": "referrer",
+        "type": "f",
+        "fingerprint": "1421426063574"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "5",
+        "name": "event",
+        "type": "e",
+        "fingerprint": "1421426063574"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "6",
+        "name": "element",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "ELEMENT"
+          }
+        ],
+        "fingerprint": "1421426063575"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "7",
+        "name": "element classes",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "CLASSES"
+          }
+        ],
+        "fingerprint": "1421426063575"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "8",
+        "name": "element id",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "ID"
+          }
+        ],
+        "fingerprint": "1421426063575"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "9",
+        "name": "element target",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "TARGET"
+          }
+        ],
+        "fingerprint": "1421426063575"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "10",
+        "name": "element text",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "TEXT"
+          }
+        ],
+        "fingerprint": "1421426063576"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "11",
+        "name": "element url",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "URL"
+          }
+        ],
+        "fingerprint": "1421426063576"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "12",
+        "name": "history new url fragment",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "HISTORY_NEW_URL_FRAGMENT"
+          }
+        ],
+        "fingerprint": "1421426063576"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "13",
+        "name": "history old url fragment",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "HISTORY_OLD_URL_FRAGMENT"
+          }
+        ],
+        "fingerprint": "1421426063576"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "14",
+        "name": "history new state",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "HISTORY_NEW_STATE"
+          }
+        ],
+        "fingerprint": "1421426063577"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "15",
+        "name": "history old state",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "HISTORY_OLD_STATE"
+          }
+        ],
+        "fingerprint": "1421426063577"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "16",
+        "name": "history change source",
+        "type": "aev",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "varType",
+            "value": "HISTORY_CHANGE_SOURCE"
+          }
+        ],
+        "fingerprint": "1421426063577"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "17",
+        "name": "webPropertyId",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "webPropertyId"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426153619"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "18",
+        "name": "virtualPagePath",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "virtualPagePath"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426246518"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "19",
+        "name": "cd1Index",
+        "type": "c",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "value",
+            "value": "cd1Index"
+          }
+        ],
+        "fingerprint": "1421426279652"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "20",
+        "name": "cd1Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd1Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426289736"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "21",
+        "name": "cd2Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd2Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426305152"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "22",
+        "name": "cd2Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd2Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426315454"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "23",
+        "name": "cd3Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd3Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426329445"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "24",
+        "name": "cd3Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd3Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426338953"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "25",
+        "name": "cd4Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd4Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426356531"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "26",
+        "name": "cd4Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd4Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426369815"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "27",
+        "name": "cd5Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd5Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426382487"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "28",
+        "name": "cd5Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd5Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426393362"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "29",
+        "name": "cd6Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd6Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426407849"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "30",
+        "name": "cd6Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd6Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426420563"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "31",
+        "name": "cd7Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd7Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426434536"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "32",
+        "name": "cd7Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd7Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426445088"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "33",
+        "name": "cd8Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd8Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426455213"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "34",
+        "name": "cd8Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd8Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426466168"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "35",
+        "name": "cd9Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd9Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426477939"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "36",
+        "name": "cd9Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd9Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426488910"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "37",
+        "name": "cd10Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd10Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426499301"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "38",
+        "name": "cd10Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd10Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426510862"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "39",
+        "name": "cm1Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm1Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426543690"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "40",
+        "name": "cm1Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm1Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426560261"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "41",
+        "name": "cm2Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm2Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426597261"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "42",
+        "name": "cm2Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm2Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426609327"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "43",
+        "name": "cm3Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm3Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426622238"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "44",
+        "name": "cm3Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm3Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426634625"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "45",
+        "name": "cm4Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm4Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426647856"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "46",
+        "name": "cm4Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cd4Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426664354"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "47",
+        "name": "cm5Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm5Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426678024"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "48",
+        "name": "cm5Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm5Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426694696"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "49",
+        "name": "cm6Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm6Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426708374"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "50",
+        "name": "cm6Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm6Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426720695"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "51",
+        "name": "cm7Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm7Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426732901"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "52",
+        "name": "cm7Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm7Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426746139"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "53",
+        "name": "cm8Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm8Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426760363"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "54",
+        "name": "cm8Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm8Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426771965"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "55",
+        "name": "cm9Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm9Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426783321"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "56",
+        "name": "cm9Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm9Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426794664"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "57",
+        "name": "cm10Index",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm10Index"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426805528"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "58",
+        "name": "cm10Value",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "cm10Value"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426819331"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "59",
+        "name": "eventCategory",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "eventCategory"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426916168"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "60",
+        "name": "eventAction",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "eventAction"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426935342"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "61",
+        "name": "eventLabel",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "eventLabel"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426950076"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "62",
+        "name": "eventValue",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "eventValue"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426963815"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "63",
+        "name": "eventNonInteraction",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "eventNonInteraction"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421426980169"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "64",
+        "name": "socialNetwork",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "socialNetwork"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421427208650"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "65",
+        "name": "socialAction",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "socialAction"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421427219620"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "66",
+        "name": "socialTarget",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "socialTarget"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421427233056"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "macroId": "67",
+        "name": "transactionCurrency",
+        "type": "v",
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "name",
+            "value": "transactionCurrency"
+          },
+          {
+            "type": "INTEGER",
+            "key": "dataLayerVersion",
+            "value": "2"
+          }
+        ],
+        "fingerprint": "1421427413894"
+      }
+    ],
+    "rule": [
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "ruleId": "1",
+        "name": "All pages",
+        "condition": [
+          {
+            "type": "MATCH_REGEX",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{url}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": ".*"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1421426063577"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "ruleId": "2",
+        "name": "event equals firePageview",
+        "condition": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "firePageview"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1421426195452"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "ruleId": "3",
+        "name": "event equals fireEvent",
+        "condition": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "fireEvent"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1421427137240"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "ruleId": "4",
+        "name": "event equals fireSocial",
+        "condition": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "fireSocial"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1421427268253"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "ruleId": "5",
+        "name": "event equals fireTransaction",
+        "condition": [
+          {
+            "type": "EQUALS",
+            "parameter": [
+              {
+                "type": "TEMPLATE",
+                "key": "arg0",
+                "value": "{{event}}"
+              },
+              {
+                "type": "TEMPLATE",
+                "key": "arg1",
+                "value": "fireTransaction"
+              }
+            ]
+          }
+        ],
+        "fingerprint": "1421427332348"
+      }
+    ],
+    "tag": [
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "tagId": "1",
+        "name": "Tracking - Page View - Fire",
+        "type": "ua",
+        "firingRuleId": [
+          "2"
+        ],
+        "liveOnly": false,
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "enableEcommerce",
+            "value": "false"
+          },
+          {
+            "type": "LIST",
+            "key": "dimension",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd9Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd10Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useHashAutoLink",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useDebugVersion",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "page",
+            "value": "{{virtualPagePath}}"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "doubleClick",
+            "value": "true"
+          },
+          {
+            "type": "LIST",
+            "key": "metric",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm9Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm10Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "decorateFormsAutoLink",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackingId",
+            "value": "{{webPropertyId}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_PAGEVIEW"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "allowLinker",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableLinkId",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "anonymizeIp",
+            "value": "false"
+          }
+        ],
+        "fingerprint": "1421427938198"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "tagId": "2",
+        "name": "Tracking - Event - Fire",
+        "type": "ua",
+        "firingRuleId": [
+          "3"
+        ],
+        "liveOnly": false,
+        "parameter": [
+          {
+            "type": "BOOLEAN",
+            "key": "enableEcommerce",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "doubleClick",
+            "value": "true"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackingId",
+            "value": "{{webPropertyId}}"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "anonymizeIp",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableLinkId",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventAction",
+            "value": "{{eventAction}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventValue",
+            "value": "{{eventValue}}"
+          },
+          {
+            "type": "LIST",
+            "key": "dimension",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd10Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd9Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "page",
+            "value": "{{virtualPagePath}}"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useDebugVersion",
+            "value": "false"
+          },
+          {
+            "type": "LIST",
+            "key": "metric",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm10Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm9Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_EVENT"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "nonInteraction",
+            "value": "{{eventNonInteraction}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventLabel",
+            "value": "{{eventLabel}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "eventCategory",
+            "value": "{{eventCategory}}"
+          }
+        ],
+        "fingerprint": "1421427904530"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "tagId": "3",
+        "name": "Tracking - Social - Fire",
+        "type": "ua",
+        "firingRuleId": [
+          "4"
+        ],
+        "liveOnly": false,
+        "parameter": [
+          {
+            "type": "TEMPLATE",
+            "key": "socialAction",
+            "value": "{{socialAction}}"
+          },
+          {
+            "type": "LIST",
+            "key": "dimension",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd9Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd10Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "doubleClick",
+            "value": "true"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "page",
+            "value": "{{virtualPagePath}}"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useDebugVersion",
+            "value": "false"
+          },
+          {
+            "type": "LIST",
+            "key": "metric",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm9Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm10Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackingId",
+            "value": "{{webPropertyId}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_SOCIAL"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "anonymizeIp",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableLinkId",
+            "value": "false"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "socialActionTarget",
+            "value": "{{socialTarget}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "socialNetwork",
+            "value": "{{socialNetwork}}"
+          }
+        ],
+        "fingerprint": "1421427970194"
+      },
+      {
+        "accountId": "36928359",
+        "containerId": "959278",
+        "tagId": "4",
+        "name": "Tracking - Transaction - Fire",
+        "type": "ua",
+        "firingRuleId": [
+          "5"
+        ],
+        "liveOnly": false,
+        "parameter": [
+          {
+            "type": "LIST",
+            "key": "dimension",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd10Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "dimension",
+                    "value": "{{cd9Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "LIST",
+            "key": "fieldsToSet",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "fieldName",
+                    "value": "currencyCode"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "value",
+                    "value": "{{transactionCurrency}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "doubleClick",
+            "value": "true"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "page",
+            "value": "{{virtualPagePath}}"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "useDebugVersion",
+            "value": "false"
+          },
+          {
+            "type": "LIST",
+            "key": "metric",
+            "list": [
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "4"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm4Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "3"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm3Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "2"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm2Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "1"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm1Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "8"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm8Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "7"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm7Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "6"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm6Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "5"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm5Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "10"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm10Value}}"
+                  }
+                ]
+              },
+              {
+                "type": "MAP",
+                "map": [
+                  {
+                    "type": "TEMPLATE",
+                    "key": "index",
+                    "value": "9"
+                  },
+                  {
+                    "type": "TEMPLATE",
+                    "key": "metric",
+                    "value": "{{cm9Value}}"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackingId",
+            "value": "{{webPropertyId}}"
+          },
+          {
+            "type": "TEMPLATE",
+            "key": "trackType",
+            "value": "TRACK_TRANSACTION"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "anonymizeIp",
+            "value": "false"
+          },
+          {
+            "type": "BOOLEAN",
+            "key": "enableLinkId",
+            "value": "false"
+          }
+        ],
+        "fingerprint": "1421428001647"
+      }
+    ],
+    "fingerprint": "1421428201031"
+  }
+}
