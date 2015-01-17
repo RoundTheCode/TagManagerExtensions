@@ -237,7 +237,6 @@ namespace RoundTheCode.TagManagerExtensions.Extensions
         /// Adds a product as part of the transaction tracking. Products must be added before TagManagerExtensions_FireTransaction is called.
         /// </summary>
         /// <param name="html"></param>
-        /// <param name="transactionId">The ID of the transaction.</param>
         /// <param name="name">The name of the product purchased.</param>
         /// <param name="sku">The sku of the product purchased.</param>
         /// <param name="category">The category of the product purchased.</param>
@@ -245,9 +244,9 @@ namespace RoundTheCode.TagManagerExtensions.Extensions
         /// <param name="quantity">The quantity of the product purchased.</param>
         /// <param name="extensionClass">The JavaScript class name used. The default is TagManagerExtensions. (optional)</param>
         /// <returns></returns>
-        public static MvcHtmlString TagManagerExtensions_AddTransactionProduct(this HtmlHelper html, string transactionId, string name, string sku, string category, double price, int quantity, string extensionClass = DEFAULT_EXTENSION_CLASS)
+        public static MvcHtmlString TagManagerExtensions_AddTransactionProduct(this HtmlHelper html, string name, string sku, string category, double price, int quantity, string extensionClass = DEFAULT_EXTENSION_CLASS)
         {
-            return new MvcHtmlString(Path(extensionClass + ".AddTransactionProduct", transactionId, name, sku, category, price, quantity));
+            return new MvcHtmlString(Path(extensionClass + ".AddTransactionProduct", name, sku, category, price, quantity));
         }
 
         /// <summary>

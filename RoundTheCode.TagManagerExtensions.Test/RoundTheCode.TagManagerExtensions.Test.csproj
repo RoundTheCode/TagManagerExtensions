@@ -44,10 +44,6 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
-    <Reference Include="RoundTheCode.TagManagerExtensions, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\RoundTheCode.TagManagerExtensions.1.0.0.0\lib\net40\RoundTheCode.TagManagerExtensions.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -151,6 +147,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RoundTheCode.TagManagerExtensions\RoundTheCode.TagManagerExtensions.csproj">
+      <Project>{5a1e3ac5-efd0-482c-b0df-4282d355ae47}</Project>
+      <Name>RoundTheCode.TagManagerExtensions</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

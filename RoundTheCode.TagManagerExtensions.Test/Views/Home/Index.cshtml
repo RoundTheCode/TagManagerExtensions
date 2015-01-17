@@ -12,17 +12,34 @@
     @Html.TagManagerExtensions_SetWebPropertyId("sdf-sdf-1")
     @Html.TagManagerExtensions_SetCustomDimension(1, "Blog 'What is going on\\?")
     @Html.TagManagerExtensions_SetCustomDimension(2, "Page")
+        @Html.TagManagerExtensions_AddTransactionProduct("Green T-shirt", "GREEN", "Men’s t-shirt", 19, 1)
+        @Html.TagManagerExtensions_AddTransactionProduct("Yellow T-shirt", "YELLOW", "Men’s t-shirt", 16, 2)
+        @Html.TagManagerExtensions_FireTransaction("4323", "UK", 56, 5, 0) 
     @Html.TagManagerExtensions_SetCustomMetric(1, -88)
     @Html.TagManagerExtensions_SetCustomMetric(2, 1013.382)
     @Html.TagManagerExtensions_FirePageview("/c.htm")
     @Html.TagManagerExtensions_FireEvent("aa", "fdj", "label", 9, true)
     @Html.TagManagerExtensions_FireSocial("aas", "sdfj","dfj")
-    @Html.TagManagerExtensions_AddTransactionProduct("4323", "jsdj", "sdjsd", "sadjsdj", 19, 1)
-    @Html.TagManagerExtensions_AddTransactionProduct("4323", "dfjdfj", "jdsfjdf", "sdjsdj", 14, 2)
-    @Html.TagManagerExtensions_FireTransaction("4323", "sdjs", 33, 0, 0)
-    @Html.TagManagerExtensions_AddTransactionProduct("4323", "jsdj", "sdjsd", "sadjsdj", 19, 1)
-    @Html.TagManagerExtensions_AddTransactionProduct("4323", "dfjdfj", "jdsfjdf", "sdjsdj", 14, 2)
-    @Html.TagManagerExtensions_FireTransaction("4323", "sdjs", 33, 0, 0)
+        var adataLayer = [{
+            'transactionId': '1234',
+            'transactionAffiliation': 'Acme Clothing',
+            'transactionTotal': 38.26,
+            'transactionTax': 1.29,
+            'transactionShipping': 5,
+            'transactionProducts': [{
+                'sku': 'DD44',
+                'name': 'T-Shirt',
+                'category': 'Apparel',
+                'price': 11.99,
+                'quantity': 1
+            }, {
+                'sku': 'AA1243544',
+                'name': 'Socks',
+                'category': 'Apparel',
+                'price': 9.99,
+                'quantity': 2
+            }]
+        }];
     </script>
 </head>
 <body>

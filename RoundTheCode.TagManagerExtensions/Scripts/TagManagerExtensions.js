@@ -41,9 +41,8 @@
                     Tax: "transactionTax", // The macro name of the transaction tax. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
                     Products: {
                         Key: "transactionProducts", // The macro name of the transaction products. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
-                        TransactionId: "transactionId", // The macro name of the transaction ID. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
                         Name: "name", // The macro name of the product name. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
-                        Sku: "SKU", // The macro name of the product SKU. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
+                        Sku: "sku", // The macro name of the product SKU. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
                         Category: "category", // The macro name of the product category. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
                         Price: "price", // The macro name of the product price. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
                         Quantity: "quantity" // The macro name of the product quantity. This would not normally need to change as Google Tag Manager has predefined macro names for transaction tracking.
@@ -173,15 +172,12 @@
                 this.TransactionProducts = undefined;
             },
             TransactionProducts: undefined,
-            AddTransactionProduct: function (transactionId, name, sku, category, price, quantity) {
+            AddTransactionProduct: function (name, sku, category, price, quantity) {
                 if (this.TransactionProducts == undefined) {
                     this.TransactionProducts = [];
                 }
 
                 var KeyValue = {};
-
-                KeyValue[this.MacroName.Transaction.Products.TransactionId] = [];
-                KeyValue[this.MacroName.Transaction.Products.TransactionId] = transactionId;
 
                 KeyValue[this.MacroName.Transaction.Products.Name] = [];
                 KeyValue[this.MacroName.Transaction.Products.Name] = name;
