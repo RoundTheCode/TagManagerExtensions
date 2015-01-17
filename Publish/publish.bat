@@ -1,0 +1,1 @@
+nuget pack ../RoundTheCode.TagManagerExtensions/RoundTheCode.TagManagerExtensions.csproj
