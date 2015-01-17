@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundTheCode.TagManagerExtensions", "RoundTheCode.TagManagerExtensions\RoundTheCode.TagManagerExtensions.csproj", "{5A1E3AC5-EFD0-482C-B0DF-4282D355AE47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RoundTheCode.TagManagerExtensions.Test", "RoundTheCode.TagManagerExtensions.Test\RoundTheCode.TagManagerExtensions.Test.csproj", "{4D353580-490B-4BD4-B9AC-69E5DC7F95AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A1E3AC5-EFD0-482C-B0DF-4282D355AE47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5A1E3AC5-EFD0-482C-B0DF-4282D355AE47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5A1E3AC5-EFD0-482C-B0DF-4282D355AE47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5A1E3AC5-EFD0-482C-B0DF-4282D355AE47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D353580-490B-4BD4-B9AC-69E5DC7F95AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D353580-490B-4BD4-B9AC-69E5DC7F95AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D353580-490B-4BD4-B9AC-69E5DC7F95AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D353580-490B-4BD4-B9AC-69E5DC7F95AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
