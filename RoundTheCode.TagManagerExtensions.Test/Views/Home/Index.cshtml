@@ -1,0 +1,45 @@
+﻿@using RoundTheCode.TagManagerExtensions.Extensions
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <script type="text/javascript" src="~/Scripts/TagManagerExtensions.js"></script>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <script type="text/javascript">
+    @Html.TagManagerExtensions_SetWebPropertyId("sdf-sdf-1")
+    @Html.TagManagerExtensions_SetCustomDimension(1, "Blog 'What is going on\\?")
+    @Html.TagManagerExtensions_SetCustomDimension(2, "Page")
+    @Html.TagManagerExtensions_SetCustomMetric(1, -88)
+    @Html.TagManagerExtensions_SetCustomMetric(2, 1013.382)
+    @Html.TagManagerExtensions_FirePageview("/c.htm")
+    @Html.TagManagerExtensions_FireEvent("aa", "fdj", "label", 9, true)
+    @Html.TagManagerExtensions_FireSocial("aas", "sdfj","dfj")
+    @Html.TagManagerExtensions_AddTransactionProduct("4323", "jsdj", "sdjsd", "sadjsdj", 19, 1)
+    @Html.TagManagerExtensions_AddTransactionProduct("4323", "dfjdfj", "jdsfjdf", "sdjsdj", 14, 2)
+    @Html.TagManagerExtensions_FireTransaction("4323", "sdjs", 33, 0, 0)
+    @Html.TagManagerExtensions_AddTransactionProduct("4323", "jsdj", "sdjsd", "sadjsdj", 19, 1)
+    @Html.TagManagerExtensions_AddTransactionProduct("4323", "dfjdfj", "jdsfjdf", "sdjsdj", 14, 2)
+    @Html.TagManagerExtensions_FireTransaction("4323", "sdjs", 33, 0, 0)
+    </script>
+</head>
+<body>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-P6F2TC"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function (w, d, s, l, i) {
+w[l] = w[l] || []; w[l].push({
+'gtm.start':
+new Date().getTime(), event: 'gtm.js'
+}); var f = d.getElementsByTagName(s)[0],
+j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+'//www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+})(window, document, 'script', 'dataLayer', 'GTM-P6F2TC');</script>
+<!-- End Google Tag Manager -->
+    <div>
+        <a onclick="@Html.TagManagerExtensions_FireEvent("Event", "Click")" href="#">Click on me</a>
+    </div>
+</body>
+</html>
