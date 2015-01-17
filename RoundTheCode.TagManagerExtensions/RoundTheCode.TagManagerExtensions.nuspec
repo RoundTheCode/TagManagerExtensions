@@ -17,4 +17,7 @@
 			<frameworkAssembly assemblyName="System.Web" targetFramework="net40" />	
 		</frameworkAssemblies>
 	</metadata>
+	<files>
+		<file src="..\GTMExport.json" target="content\GTMExport" /> 
+	</files>	
 </package> 
